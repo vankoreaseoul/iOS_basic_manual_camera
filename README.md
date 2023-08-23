@@ -13,4 +13,6 @@ Hope it can help you guys!
 - SwiftUI
 - AVFoundation
 
-  
+### Attentions
+1. Check your camera type before starting the project.
+- The built-in-camera type is different depending on iPhone models. So please check if the selected camera type on code is supported on your iPhone model. And you need to recognize that the manual controlling is supported in cerain camera types.
