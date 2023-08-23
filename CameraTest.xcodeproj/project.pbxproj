@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC47C8E72A8DC0A1006EBD9F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC47C8E62A8DC0A1006EBD9F /* Utils.swift */; };
 		DC5E41912A8C8EE900D917F9 /* CameraTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41902A8C8EE900D917F9 /* CameraTestApp.swift */; };
-		DC5E41932A8C8EE900D917F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41922A8C8EE900D917F9 /* ContentView.swift */; };
+		DC5E41932A8C8EE900D917F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41922A8C8EE900D917F9 /* HomeView.swift */; };
 		DC5E41952A8C8EEA00D917F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5E41942A8C8EEA00D917F9 /* Assets.xcassets */; };
 		DC5E41982A8C8EEA00D917F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5E41972A8C8EEA00D917F9 /* Preview Assets.xcassets */; };
 		DC5E41A22A8C8EEA00D917F9 /* CameraTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41A12A8C8EEA00D917F9 /* CameraTestTests.swift */; };
 		DC5E41AC2A8C8EEA00D917F9 /* CameraTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41AB2A8C8EEA00D917F9 /* CameraTestUITests.swift */; };
 		DC5E41AE2A8C8EEA00D917F9 /* CameraTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41AD2A8C8EEA00D917F9 /* CameraTestUITestsLaunchTests.swift */; };
+		DC5E41BB2A8C8FBB00D917F9 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41BA2A8C8FBB00D917F9 /* HomeVM.swift */; };
+		DC5E41BF2A8C93A400D917F9 /* LiveCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41BE2A8C93A400D917F9 /* LiveCameraView.swift */; };
+		DC5E41C12A8C94A100D917F9 /* LiveCameraVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E41C02A8C94A100D917F9 /* LiveCameraVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC47C8E62A8DC0A1006EBD9F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		DC5E418D2A8C8EE900D917F9 /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5E41902A8C8EE900D917F9 /* CameraTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestApp.swift; sourceTree = "<group>"; };
-		DC5E41922A8C8EE900D917F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC5E41922A8C8EE900D917F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DC5E41942A8C8EEA00D917F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5E41972A8C8EEA00D917F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC5E419D2A8C8EEA00D917F9 /* CameraTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,9 @@
 		DC5E41A72A8C8EEA00D917F9 /* CameraTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5E41AB2A8C8EEA00D917F9 /* CameraTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestUITests.swift; sourceTree = "<group>"; };
 		DC5E41AD2A8C8EEA00D917F9 /* CameraTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC5E41BA2A8C8FBB00D917F9 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		DC5E41BE2A8C93A400D917F9 /* LiveCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraView.swift; sourceTree = "<group>"; };
+		DC5E41C02A8C94A100D917F9 /* LiveCameraVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC47C8E52A8DC057006EBD9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC5E41922A8C8EE900D917F9 /* HomeView.swift */,
+				DC5E41BA2A8C8FBB00D917F9 /* HomeVM.swift */,
+				DC5E41BE2A8C93A400D917F9 /* LiveCameraView.swift */,
+				DC5E41C02A8C94A100D917F9 /* LiveCameraVM.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DC5E41842A8C8EE900D917F9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				DC5E41902A8C8EE900D917F9 /* CameraTestApp.swift */,
-				DC5E41922A8C8EE900D917F9 /* ContentView.swift */,
+				DC47C8E62A8DC0A1006EBD9F /* Utils.swift */,
+				DC47C8E52A8DC057006EBD9F /* View */,
 				DC5E41942A8C8EEA00D917F9 /* Assets.xcassets */,
 				DC5E41962A8C8EEA00D917F9 /* Preview Content */,
 			);
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5E41932A8C8EE900D917F9 /* ContentView.swift in Sources */,
+				DC5E41BB2A8C8FBB00D917F9 /* HomeVM.swift in Sources */,
+				DC5E41932A8C8EE900D917F9 /* HomeView.swift in Sources */,
+				DC5E41C12A8C94A100D917F9 /* LiveCameraVM.swift in Sources */,
 				DC5E41912A8C8EE900D917F9 /* CameraTestApp.swift in Sources */,
+				DC5E41BF2A8C93A400D917F9 /* LiveCameraView.swift in Sources */,
+				DC47C8E72A8DC0A1006EBD9F /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +444,7 @@
 				DEVELOPMENT_TEAM = N8V6RXX56E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required preview";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +474,7 @@
 				DEVELOPMENT_TEAM = N8V6RXX56E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required preview";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
